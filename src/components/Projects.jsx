@@ -13,7 +13,7 @@ export default function Projects() {
       id: 1,
       title: "Brand Identity Design",
       description: "Modern and innovative branding solutions with clean UI and exceptional design.",
-      image: "/images/movieAppThumbnail.png", // placeholder - replace with actual images
+      image: "/images/project1Img.png", // placeholder - replace with actual images
       tags: ["UI/UX", "Branding"],
       link: "https://trendmovies112.netlify.app/",
       size: "large", // large or small (for bento grid)
