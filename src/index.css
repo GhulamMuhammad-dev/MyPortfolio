@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/* Custom color utilities */
+@utility bg-opacity-10 {
+  opacity: 0.1;
+}
+
+@utility bg-opacity-20 {
+  opacity: 0.2;
+}
+
+@utility text-primary {
+  color: #4ade80;
+}
+
+@utility bg-primary {
+  background-color: #4ade80;
+}
+
+@utility border-primary {
+  border-color: #4ade80;
+}
+
+@utility text-text {
+  color: #ffffff;
+}
+
+@utility text-text-secondary {
+  color: #94a3b8;
+}
+
+@utility gradient-text {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #86efac, #4ade80);
+}
+
+@utility section-padding {
+  padding: 4rem 1rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@utility animate-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@layer base {
+  :root {
+    --color-background: #111827;
+    --color-background-secondary: #162032;
+    --color-background-tertiary: #1c2637;
+    --color-primary: #4ade80;
+    --color-primary-light: #86efac;
+    --color-primary-dark: #22c55e;
+    --color-text: #ffffff;
+    --color-text-secondary: #94a3b8;
+    --color-accent: #4ade80;
+    --color-border: #4ade80;
+  }
+
+  body {
+    @apply bg-[#111827] text-white font-sans;
+  }
+}
+
+@layer components {
+  .skill-card {
+    @apply bg-[#162032] rounded-2xl overflow-hidden;
+  }
+
+  .project-card {
+    @apply bg-[#162032] rounded-3xl overflow-hidden border-2 border-[#4ade80];
+  }
+
+  .button-primary {
+    @apply bg-[#4ade80] text-black px-6 py-3 rounded-full font-medium hover:bg-[#22c55e] transition-colors;
+  }
+
+  .button-secondary {
+    @apply bg-[#4ade80]/10 text-[#4ade80] border border-[#4ade80] px-6 py-3 rounded-full font-medium hover:bg-opacity-20 transition-colors;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 bg-[#162032] border border-gray-700 rounded-lg focus:outline-none focus:border-[#4ade80];
+  }
+}
+
+@layer base {
+  .bg-background {
+    background-color: var(--color-background);
+  }
+  .bg-background-secondary {
+    background-color: var(--color-background-secondary);
+  }
+  .bg-background-tertiary {
+    background-color: var(--color-background-tertiary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-primary-light {
+    background-color: var(--color-primary-light);
+  }
+  .bg-primary-dark {
+    background-color: var(--color-primary-dark);
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-text {
+    color: var(--color-text);
+  }
+  .text-text-secondary {
+    color: var(--color-text-secondary);
+  }
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+}
