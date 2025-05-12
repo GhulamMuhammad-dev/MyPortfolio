@@ -79,7 +79,7 @@ export default function About() {
           <div className="w-full aspect-square bg-[#162032] rounded-2xl overflow-hidden relative">
             {/* Replace with your profile image */}
             <div className="w-full h-full flex items-center justify-center text-center p-4 bg-[#1c2637]">
-              <img src="/images/profileimg.png" alt="Profile" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/images/profileimg.webp" alt="Profile" className="w-full h-full object-cover rounded-2xl" />
             </div>
             
             {/* Decorative elements */}
