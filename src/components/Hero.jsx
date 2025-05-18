@@ -36,7 +36,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" ref={heroRef} className="section-padding mt-28 md:mt-32 min-h-[90vh] flex items-center">
+    <section id="home" ref={heroRef} className="section-padding mt-20 md:mt-20 min-h-[90vh] flex items-center">
       <div className="max-w-3xl">
         <div className="inline-block px-4 py-1 bg-[#1c2637] rounded-full text-sm mb-4">
           <span className="text-primary">UI/UX Designer & Developer</span>

@@ -93,8 +93,8 @@ export default function About() {
               "I believe interfaces that are simple + easy to use design should make tools + systems for people."
             </p>
             <div className="flex items-center mt-4">
-              <div className="w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center">
-                <span className="text-xs text-orange-500">GM</span>
+              <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+                <span className="text-xs text-black">GM</span>
               </div>
               <div className="ml-3">
                 <p className="text-xs font-medium">Ghulam Muhammad</p>
@@ -115,26 +115,26 @@ export default function About() {
           
           <div className="mb-8">
             <p className="text-text-secondary text-lg mb-4">
-              I'm a multidisciplinary creative with a passion for turning ideas into interactive, intuitive digital products. With a background in both frontend development and UX/UI design, I bridge the gap between design vision and functional reality.
+             I'm a versatile full stack developer and UX/UI designer who transforms complex ideas into seamless, user-focused digital experiences. With a strong foundation in both front-end aesthetics and back-end logic, I craft interactive products that are not only visually compelling but also functionally robust.
             </p>
             <p className="text-text-secondary text-lg">
-              Great work comes from collaboration. I enjoy working closely with clients to understand their goals and deliver results that exceed expectations.
+              By combining design thinking with technical expertise, I bridge the gap between what users want and how systems work. From wireframes to deployment, I handle the entire development lifecycle while ensuring a consistent and delightful user experience.
             </p>
           </div>
           
           {/* Stats and expertise */}
           <div ref={statsRef} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             <div className="bg-[#162032] rounded-xl p-6">
-              <h3 className="text-xl font-bold text-orange-500 mb-2">UI/UX Design</h3>
-              <p className="text-sm text-text-secondary">Creating intuitive interfaces with excellent user experience</p>
+              <h3 className="text-xl font-bold text-primary mb-2">UI/UX Design</h3>
+              <p className="text-sm text-text-secondary">Crafting intuitive interfaces that are both beautiful and easy to use.</p>
             </div>
             <div className="bg-[#162032] rounded-xl p-6">
-              <h3 className="text-xl font-bold text-orange-400 mb-2">Frontend Dev</h3>
-              <p className="text-sm text-text-secondary">Building responsive and performant web applications</p>
+              <h3 className="text-xl font-bold text-primary mb-2">Frontend & Backend Dev</h3>
+              <p className="text-sm text-text-secondary">Building modern, scalable web apps—from dynamic UIs to secure APIs and databases.</p>
             </div>
             <div className="bg-[#162032] rounded-xl p-6">
-              <h3 className="text-xl font-bold text-orange-300 mb-2">Brand Identity</h3>
-              <p className="text-sm text-text-secondary">Crafting unique visual identities that resonate</p>
+              <h3 className="text-xl font-bold text-primary mb-2">Brand Identity</h3>
+              <p className="text-sm text-text-secondary">Creating cohesive digital branding that connects with audiences.</p>
             </div>
           </div>
           

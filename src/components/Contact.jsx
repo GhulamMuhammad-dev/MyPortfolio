@@ -76,7 +76,7 @@ export default function Contact() {
   };
   
   return (
-    <section id="contact" ref={contactRef} className="section-padding py-24 bg-[#0f1624]">
+    <section id="contact" ref={contactRef} className="section-padding py-24 ">
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16" ref={headingRef}>
           <div className="inline-block px-4 py-1 bg-[#1c2637] rounded-full text-sm mb-4">

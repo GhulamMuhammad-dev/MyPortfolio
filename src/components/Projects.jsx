@@ -98,9 +98,9 @@ export default function Projects() {
         <div className="inline-block px-4 py-1 bg-[#1c2637] rounded-full text-sm mb-4">
           <span className="text-primary">Selected Projects</span>
         </div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 projects-title">Design Solutions That Elevate Your Brand</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 projects-title">Full-Stack Solutions That Empower Your Vision</h2>
         <p className="text-text-secondary text-lg">
-          From strategy to execution, I provide tailored design services that help brands stand out and create meaningful connections.
+          From concept to deployment, I deliver end-to-end web solutions that blend stunning design with robust development. Whether it's building scalable apps or crafting engaging user interfaces, each project is designed to drive results and meaningful user engagement.
         </p>
       </div>
       

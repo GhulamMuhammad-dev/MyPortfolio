@@ -58,7 +58,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar py-6 px-4 md:px-8 lg:px-16 flex justify-between items-center fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#111827] shadow-lg' : ''}`}>
+    <nav className={`navbar py-6 px-4 md:px-8 lg:px-32 flex justify-between items-center fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#111827] shadow-lg' : ''}`}>
       <div className="flex items-center">
         <a href="#" onClick={() => scrollToSection('home')} className="text-xl font-bold">portfolio</a>
       </div>
